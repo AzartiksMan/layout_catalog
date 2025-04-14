@@ -1,13 +1,13 @@
 .header {
-  font-weight: 500;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $white-color;
   padding: 0 50px;
+  font-weight: 500;
+  background-color: $white-color;
 
   &__logo {
-    display: block;
+    display: flex;
     width: 40px;
     height: 40px;
   }
@@ -20,9 +20,9 @@
 
   &__list {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    gap: 20px;
   }
 
   &__link {
@@ -30,9 +30,7 @@
     color: $card-color-main;
     height: 60px;
     line-height: 60px;
-    margin-left: 20px;
     align-items: center;
-    justify-content: center;
     text-transform: uppercase;
     text-decoration: none;
 
